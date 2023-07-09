@@ -7,6 +7,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -39,11 +44,16 @@ main {
     display: flex;
     flex-direction: column;
     margin: 20px;
+    padding-top: 100px;
 }
 
 section {
     color: #FFF;
     margin: 20px;
+}
+
+#HTML {
+    margin: 15px 0;
 }
 
 section h1 {
@@ -60,6 +70,7 @@ section h1 {
 .topic-header {
     font-size: 24px;
     margin: 0 10px;
+    background-color: transparent;
 }
 
 .content-container {
@@ -67,9 +78,16 @@ section h1 {
     flex-direction: row;
     align-items: center;
     margin: 5px 0px;
+    background-color: #554c4c;
+    padding: 10px;
 }
 
 .code {
     font-size: 24px;
     margin: 0 10px;
+    background-color: transparent;
+}
+
+b,i,sub,sup,em,strong,q,cite,dfn,address {
+    background-color: transparent;
 }

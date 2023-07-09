@@ -17,7 +17,8 @@
     </header>
     <main>
         <section class="html">
-            <h1 id="HTML">HTML</h1>
+            <h1 id="HTML"><ins>HTML</ins></h1>
+            <h1 id="HTML">TEXT</h1>
             <div class="html-container container">
                 <div class="content-container">
                     <p class="topic-header">Headings: </p>
@@ -38,6 +39,109 @@
                 <div class="content-container">
                     <p class="topic-header">Line Breaks & Horizontal Rules:</p>
                     <p class="code">&lt;br /&gt;, &lt;hr /&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Strong & Emphasis:</p>
+                    <p class="code">&lt;strong&gt; I'm <strong>STRONG</strong> &lt;/strong&gt;, &lt;em&gt; I'm <em>EM</em> &lt;/em&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Quotations:</p>
+                    <p class="code">&lt;blockquote&gt; ... &lt;/blockquote&gt;, &lt;q&gt; <q>Q</q> &lt;/q&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Abbreviations & Acronyms:</p>
+                    <p class="code">&lt;abbr&gt; ... &lt;/abbr&gt;, &lt;acronym&gt; &lt;/acronym&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Citations & Definitions:</p>
+                    <p class="code">&lt;cite&gt; <cite>this is cite</cite> &lt;/cite&gt;, &lt;dfn&gt; <dfn>this is dfn</dfn> &lt;/dfn&gt;</p>
+                </div>
+                <h1 id="HTML">LISTS</h1>
+                <div class="content-container">
+                    <p class="topic-header">Ordered Lists:</p>
+                    <p class="code">&lt;ol&gt; &lt;li&gt;123&lt;/li&gt; &lt;/ol&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Unordered Lists:</p>
+                    <p class="code">&lt;ul&gt; &lt;li&gt;-&lt;/li&gt; &lt;/ul&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Definition Lists:</p>
+                    <p class="code">&lt;dl&gt; &lt;dt&gt; &lt;dd&gt; TEXT &lt;/dd&gt; &lt;/dt&gt; &lt;/dl&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Nested Lists:</p>
+                    <p class="code">&lt;ul&gt; &lt;li&gt; &lt;ul&gt; &lt;li&gt;  &lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt;</p>
+                </div>
+                <h1 id="HTML">LINKS</h1>
+                <div class="content-container">
+                    <p class="topic-header">Linking to other sites: </p>
+                    <p class="code">&lt;a href="https//www.example.com"&gt; Click Me &lt;/a&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Linking to other pages on the same site: </p>
+                    <p class="code">&lt;a href="index.html" target="_blank, _self"&gt; Click Me &lt;/a&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Enail Links: </p>
+                    <p class="code">&lt;a href="example@gmail.com"&gt; Send Email &lt;/a&gt;</p>
+                </div>
+                <h1 id="HTML">IMAGES</h1>
+                <div class="content-container">
+                    <p class="topic-header">Adding Images: </p>
+                    <p class="code">&lt;img src="path of picture" alt="Definition of picture" title="Show Definition when hover" /&gt;  </p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Height & Width of Images: </p>
+                    <p class="code">&lt;img width="width of the image in pixels." height="height of the image in pixels." /&gt;  </p>
+                </div>
+                <h1 id="HTML">TABLES</h1>
+                <div class="content-container">
+                    <p class="topic-header">Basic table structure: </p>
+                    <p class="code">&lt;table&gt; Table Element &lt;tr&gt; Table row &lt;th&gt; Table Head &lt;/th&gt; &lt;td&gt; Table Data &lt;/td&gt; &lt;/tr&gt;  &lt;/table&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header">Long Tables: </p>
+                    <p class="code">&lt;thead&gt; The headings of the table  &lt;/thead&gt;</p>
+                    <p class="code">&lt;tbody&gt; The body s &lt;/tbody&gt;</p>
+                    <p class="code">&lt;tfoot&gt; The footer  &lt;/tfoot&gt;</p>
+                </div>
+                <h1 id="HTML">FORMS</h1>
+                <div class="content-container">
+                    <p class="topic-header"> Form structure: </p>
+                    <p class="code">&lt;form action="URL for the page on the server" method="get or post"&gt; Form Body &lt;/form&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header"> Text Input: </p>
+                    <p class="code">&lt;input type="type attribute" name="identifies the form control what is it" maxlength="limit the number of characters"&gt; input Body &lt;/input&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header"> Text Area: </p>
+                    <p class="code">&lt;textarea cols="column" rows="row"&gt; Textarea Body &lt;/textarea&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header"> Password Input: </p>
+                    <p class="code">&lt;input type="password" name="" size, maxlength &gt; input Body &lt;/input&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header"> Radio Button: </p>
+                    <p class="code">&lt;input type="radio" value="indicates the value that is sent to the server" name="" checked="checked" &gt; input Body &lt;/input&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header"> Checkbox: </p>
+                    <p class="code">&lt;input type="checkbox" name="" value="" checked="" &gt; input Body &lt;/input&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header"> Drop Down List Box: </p>
+                    <p class="code">&lt;select  name="" &gt;  &lt;option value="" selected&gt; Menu List &lt;/option&gt; &lt;/select&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header"> File Input Box: </p>
+                    <p class="code">&lt;input type="file" name="" &gt; input file &lt;/input&gt;</p>
+                </div>
+                <div class="content-container">
+                    <p class="topic-header"> SubmitButton: </p>
+                    <p class="code">&lt;input type="submit" name="" value="control the text that appears on a button" &gt; input file &lt;/input&gt;</p>
                 </div>
             </div>
         </section>
